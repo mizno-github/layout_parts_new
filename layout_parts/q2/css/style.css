@@ -6,31 +6,27 @@
   display: block;
   clear: both;
 }
-.main-wrapper{
-  width:900px;
-  background-color:#eff3f4;
-  padding:20px;
-  font-size:18px;
-  line-height:22px;
+
+.main-wrapper {
+  width: 900px;
+  background-color: #eff3f4;
+  padding: 20px;
+  font-size: 18px;
+  line-height: 22px;
   margin:0 auto;
-
 }
 
-.left{
-  float:left;
-  margin:0 20px 10px 0;
+.left {
+  float: left;
+  margin: 0 20px 10px 0;
 }
 
-/* .main-text2{
-  float:left;
-} */
-
-.right{
-  float:right;
-  margin-left:20px;
+.right {
+  float: right;
+  margin-left: 20px;
 }
 
-.main-text{
-  word-break:break-all;
+.main-text {
+  word-break: break-all;
 }
 /* 回答はここに書いてね */
