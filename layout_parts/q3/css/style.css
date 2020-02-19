@@ -1,5 +1,45 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.menu{
+  width: 100%;
+  table-layout: fixed;
+  text-align:center;
+}
 
+/* データ部分のサイズを指定 */
+.menu td{
+  font-size:16px;
+  line-height:22px;
+  border:1px solid #dedede;
+  padding:10px;
+}
+/* 日付の列・行を青くする、文字サイズ・幅を指定 */
+.menu td:first-child,.menu thead tr{
+  background:#2244aa;
+  color:white;
+  font-size:18px ;
+  line-height:26px;
+}
+.menu th{
+  border:1px solid #dedede;
+  padding:10px;
+}
+
+.menu tr:nth-child(2n){
+  background-color:#ecf1f2;
+}
+.menu tbody tr:last-child{
+  border-top:2px #000 dashed;
+}
+/* th{
+  
+  }  */
+/*
+ 日付	朝ごはん	昼ごはん	おやつ	夜ご飯	夜食
+2016/04/01	食パン	チャーハン	杏仁豆腐	舞茸丼	いちご
+2016/04/02	なし	ケバブ丼	ゼリー	唐揚げ定食	いちご
+2016/04/03	納豆ご飯	まぐろ定食	チョコパン	餃子定食	チョコ
+2016/04/04	食パン	牛丼	アイス	豚丼	スムージー
+合計カロリー	10000kcal	12000kcal	3000kcal	30000kcal	1000kcal */
 /* 回答はここに書いてね */

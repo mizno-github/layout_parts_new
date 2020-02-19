@@ -1,5 +1,70 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.q6-text-align-parent{
+  text-align:center;
+  padding:10px;
+}
+.q6-text-align{
+  display:inline;
+  background-color:#e6f2ff;
+  padding:10px;
+}
+.q6-margin{
+  
+  width:90px;
+  background-color:#e6f2ff;
+  padding:10px;
+  text-align:center;
+  margin:0 auto;
+}
 
+.q6-table-parent{
+  display:table;
+  width:300px;
+  height:200px;
+  text-align:center;
+}
+.q6-table{
+  vertical-align:middle;
+  display:table-cell;
+}
+.q6-table-p{
+  background-color:white;
+  display: inline;
+  padding:10px;
+}
+
+.q6-flex-parent{
+  display:flex;
+  justify-content:center;
+}
+.q6-flex{
+  background-color:white;
+  padding:10px;
+  align-self:center;
+}
+
+
+.q6-position-parent{
+  position: relative;
+}
+.q6-position{
+  /* display:block; */
+  position:absolute;
+  top:0px;
+  right:0px;
+  left:0px;
+  bottom:0px;
+  margin:auto;
+}
+.q6-transform-parent{
+  position:relative;
+}
+.q6-transform{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
 /* 回答はここに書いてね */
