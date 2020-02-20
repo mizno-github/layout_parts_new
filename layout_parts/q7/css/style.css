@@ -1,5 +1,90 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.float-left {
+  float: left;
+  width: 205px;
+  margin-left:50px;
+}
+.float-left:first-child{
+  margin-left:0px;
+}
 
-/* 回答はここに書いてね */
+.clearfix::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+                      /* テーブルでの横並び */
+.q7box-parent {
+  width:500px;
+  display: table;
+}
+.q7box {
+  width:225px;
+  padding-left:50px;
+  display: table-cell;
+  vertical-align: middle;
+}
+.q7box:first-child{
+  padding-left:0px;
+}
+
+                      /* インラインブロックでの横並び */
+.q7-inline-box {
+  display: inline-block;
+  width: 41%;
+  margin-left: 45px;
+  /* padding-right:2px; */
+  vertical-align: middle;
+}
+.q7-inline-box:first-child {
+  margin-left: 0px;
+}
+
+                          /* フレックスでの横並び */
+.q7-flex-parent {
+  display: flex;
+  justify-content: space-around;
+}
+
+.q7-flex {
+  width: 205px;
+  align-self: flex-end;
+}
+
+.inline-margin-parent {
+
+}
+.inline-margin-left {
+  display:inline-block;
+  width:300px;
+  margin-right:-350px;
+}
+
+.inline-margin-right {
+  vertical-align:top;
+  display:inline-block;
+  margin-left:396px;
+  margin-right:-46px;
+  justify-content: space-around;
+  
+}
+
+
+/* .inline-margin-parent {
+  text-align:left;
+  
+  }
+  .inline-margin-left {
+    display:inline-block;
+    width:300px;
+    margin-right:-310px;
+  }
+  
+  .inline-margin-right {
+    display:inline-block;
+    margin-left:100px;
+    padding-left:280px;
+    text-align:left;
+  } */
