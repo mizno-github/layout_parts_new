@@ -1,5 +1,37 @@
 @charset "UTF-8";
 
 /* 回答はここに書いてね */
+.speech-bubble {
+  margin: 0 auto;
+  width: 500px;
+  font-size: 16px;
+  line-height: 16px;
+  border-radius: 30px;
+  border:solid 5px #222;
+  padding: 20px;
+  position: relative;
+}
 
+.speech-bubble::after {
+  position: absolute;
+  transform: rotate(45deg);
+  height: 19px;
+  width: 19px;
+  border: solid 5px white;
+  content: "";
+  background-color: white;
+  top: 134.5px;
+  left: 35.4px;
+}
+
+.speech-bubble::before {
+  position: absolute;
+  transform: rotate(45deg);
+  height: 19px;
+  width: 19px;
+  border: solid 5px #222;
+  content: "";
+  top: 141.6px;
+  left: 35.4px;
+}
 /* 回答はここに書いてね */

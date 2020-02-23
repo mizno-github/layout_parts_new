@@ -91,13 +91,10 @@
 }
 
 .box9 {
-  width: 100px;
-  height: 100px;
   background-color: #2b69a3;
   position: fixed;
   top: 10px;
   left: 10px;
-  display: table;
 }
 
 /* 回答はここに書いてね */
