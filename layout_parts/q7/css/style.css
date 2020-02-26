@@ -39,9 +39,9 @@
 
 .q7-inline-box {
   display: inline-block;
-  width: 41%;
-  margin-left: 51px;
-  margin-right: -0.6px;
+  width: 205px;
+  margin-left: 50px;
+  /* margin-right: -0.6px; */
   vertical-align: middle;
   font-size: 16px;
 }
@@ -64,17 +64,23 @@
   align-self: flex-end;
 }
 
+.inline-margin-parent {
+  font-size:0px;
+}
+
 .inline-margin-left {
   display: inline-block;
+  box-sizing:border-box;
   width: 300px;
-  margin-right: -350px;
+  margin-right: -300px;
+  font-size:16px;
 }
 
 .inline-margin-right {
+  margin-left:350px;
   vertical-align: top;
   display: inline-block;
-  margin-left: 396px;
-  margin-right: -46px;
   justify-content: space-around;
-  
+  font-size:16px;
 }
+

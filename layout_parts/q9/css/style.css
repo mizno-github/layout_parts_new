@@ -12,26 +12,21 @@
   position: relative;
 }
 
-.speech-bubble::after {
-  position: absolute;
-  transform: rotate(45deg);
-  height: 19px;
-  width: 19px;
-  border: solid 5px white;
-  content: "";
-  background-color: white;
-  top: 134.5px;
-  left: 35.4px;
-}
 
-.speech-bubble::before {
+.speech-bubble::before,.speech-bubble::after{
+  font-size:0;
   position: absolute;
-  transform: rotate(45deg);
-  height: 19px;
-  width: 19px;
-  border: solid 5px #222;
+  border: solid 20px transparent;
   content: "";
-  top: 141.6px;
-  left: 35.4px;
+  left: 30px;
+}
+.speech-bubble::after {
+  top: 150px;
+  border-top:solid white 20px;
+  
+}
+.speech-bubble::before {
+  top: 156.5px;
+  border-top:solid #222 20px;
 }
 /* 回答はここに書いてね */
