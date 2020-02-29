@@ -7,26 +7,29 @@
   font-size: 16px;
   line-height: 16px;
   border-radius: 30px;
-  border:solid 5px #222;
+  border: solid 5px #222;
   padding: 20px;
   position: relative;
 }
 
 
-.speech-bubble::before,.speech-bubble::after{
-  font-size:0;
+.speech-bubble::before,.speech-bubble::after {
+  font-size: 0;
   position: absolute;
   border: solid 20px transparent;
   content: "";
   left: 30px;
+  top: 0;
 }
 .speech-bubble::after {
-  top: 150px;
-  border-top:solid white 20px;
+  bottom: -38px;
+  left:0;
+  border-top: solid white 20px;
   
 }
 .speech-bubble::before {
-  top: 156.5px;
-  border-top:solid #222 20px;
+  bottom: -45px;
+  left: 0;
+  border-top: solid #222 20px;
 }
 /* 回答はここに書いてね */

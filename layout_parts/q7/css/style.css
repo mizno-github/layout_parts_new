@@ -50,9 +50,6 @@
   margin-left: 0px;
 }
 
-.q7-inline-box:last-child {
-  padding-left: 9.7px;
-}
                           /* フレックスでの横並び */
 .q7-flex-parent {
   display: flex;
@@ -65,22 +62,24 @@
 }
 
 .inline-margin-parent {
-  font-size:0px;
+  font-size: 0px;
 }
 
 .inline-margin-left {
   display: inline-block;
-  box-sizing:border-box;
+  box-sizing: border-box;
+  font-size: 16px;
   width: 300px;
-  margin-right: -300px;
-  font-size:16px;
+  vertical-align: top;
 }
 
 .inline-margin-right {
-  margin-left:350px;
-  vertical-align: top;
+  padding-left: 350px;
   display: inline-block;
-  justify-content: space-around;
-  font-size:16px;
+  margin-left: -300px;
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 100%;
 }
+
 
