@@ -10,6 +10,7 @@
 
 .q8wrapper {  
   position: relative;
+  cursor:pointer
 }
 
 .q8wrapper:hover >.carpeg {
@@ -33,12 +34,14 @@
   left: 0;
 }
 
+
 .commentary {
   position: absolute;
   padding: 20px;
   line-height: 16px;
   font-size: 16px;
   bottom: 0;
+  left: 0;
   color: white;
   word-break: break-all;
 }

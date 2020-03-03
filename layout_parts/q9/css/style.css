@@ -18,18 +18,16 @@
   position: absolute;
   border: solid 20px transparent;
   content: "";
-  left: 30px;
-  top: 0;
+  left:30px;
+  
 }
 .speech-bubble::after {
   bottom: -38px;
-  left:0;
   border-top: solid white 20px;
   
 }
 .speech-bubble::before {
   bottom: -45px;
-  left: 0;
   border-top: solid #222 20px;
 }
 /* 回答はここに書いてね */
